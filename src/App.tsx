@@ -114,7 +114,7 @@ function App() {
             <div className="space-y-3 mb-8 text-gray-700">
               <div className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-orange-500 flex-shrink-0" />
-                <span className="text-lg">Sábado, 29 de agosto</span>
+                <span className="text-lg">Sábado, 29 de agosto - 20:00</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-orange-500 flex-shrink-0" />
@@ -218,7 +218,7 @@ function App() {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Informações do Evento</h4>
                     <div className="space-y-2 text-gray-700">
-                      <p><strong>Data:</strong> Sábado, 29 de agosto</p>
+                      <p><strong>Data:</strong> Sábado, 29 de agosto - 20:00</p>
                       <p><strong>Local:</strong> Boulevard Music Hall - Natal/RN</p>
                     </div>
                   </div>
