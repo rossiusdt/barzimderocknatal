@@ -59,17 +59,17 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-gradient-to-r from-blue-900 to-blue-800 text-white">
+      <header className="bg-white text-blue-600 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <img src="/q2logo.png" alt="Q2 Ingressos" className="h-10" />
+              <img src="/48f34e476b966d98ead9e910a41e116b4f1dcb16.png" alt="BaladAPP by Ticketmaster" className="h-10" />
             </div>
 
             <nav className="hidden md:flex items-center gap-8">
-              <a href="#" className="hover:text-blue-200 transition">Home</a>
-              <a href="#" className="hover:text-blue-200 transition">Atendimento</a>
-              <a href="#" className="hover:text-blue-200 transition flex items-center gap-1">
+              <a href="#" className="hover:text-blue-800 transition font-medium">Home</a>
+              <a href="#" className="hover:text-blue-800 transition font-medium">Atendimento</a>
+              <a href="#" className="hover:text-blue-800 transition flex items-center gap-1 font-medium">
                 <Globe className="w-4 h-4" /> PT
               </a>
             </nav>
@@ -84,8 +84,8 @@ function App() {
 
           {isMenuOpen && (
             <nav className="md:hidden mt-4 space-y-3 pb-4">
-              <a href="#" className="block hover:text-blue-200 transition">Home</a>
-              <a href="#" className="block hover:text-blue-200 transition">Atendimento</a>
+              <a href="#" className="block hover:text-blue-800 transition font-medium">Home</a>
+              <a href="#" className="block hover:text-blue-800 transition font-medium">Atendimento</a>
             </nav>
           )}
         </div>
